@@ -1,0 +1,135 @@
+/* page d'acceuil */
+
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: #F5E4EF ;
+}
+
+div#conteneur
+{
+	width: 800px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid #F57BCA ;
+	background: #fff ;
+}
+
+
+h1#header a
+{
+	width: 544px ;
+	height: 312px ;
+	display: block ;
+	background: url(images/ecole.png) no-repeat ;
+	position: relative ;
+	left: 128px ;
+}
+
+ul#menu
+{
+	height: 25px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: #CD82B3 ;
+	list-style-type: none ;
+}
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 125px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #FFFFFF ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #FFFFFF ;
+}
+
+ul#menu li a:hover
+{
+	background: #D73FA3 ;
+}
+
+div#defilement
+{
+	font-size: 1.6em ;
+	color: #F57BCA ;
+	font-weight: bold ;
+	margin-left: -50px ;
+	margin-right: -50px ;
+}
+
+div#contenu
+{
+	padding: 0 50px 0 50px ;
+	
+}
+
+div#contenu h2
+{
+	padding-left: 33px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	background: url(images/school.png) no-repeat left bottom ;
+	color: #F57BCA ;
+	border-bottom: 1px solid #F57BCA ;
+}
+
+div#contenu h3
+{
+	margin-left: 0px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #F57BCA ;
+	border-left: 3px solid #F57BCA ;
+	color: #F57BCA ;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	margin-left: 25px ;
+	margin-right: 25px ;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #F57BCA ;
+}
+
+div#contenu a:hover
+{
+	color: #D73FA3 ;
+}
+
+.gmaps-frame 
+{
+    margin-left: 25px ;
+    display: block ;
+}
+
+div#widget_700b8b5bc05bfff590fa7cc067c10047
+{
+	margin-left: 35px ;	
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #F57BCA ;
+}

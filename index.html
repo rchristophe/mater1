@@ -1,0 +1,62 @@
+<!-- index -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Bienvenue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Site de l'école maternelle Alphonse Daudet anciennement Le Colombier à Pignans"/>
+	<link rel="icon" type="image/png" href="images/flavicon.png" />
+
+	<style type="text/css">
+		body{
+			margin: 0 ;
+			padding: 0 ;
+			background-color: #CD82B3 ;
+			color: #CD82B3 ;
+		}
+
+		h1{
+			position: absolute ;
+			top: 50% ;
+			transform: translateY(-50%) ;
+			width: 100% ;
+			text-align: center ;
+			margin: 0 ;
+			padding: 0 ;
+			font-family: "Trebuchet MS", helvetica, sans-serif ;
+			color: #FFFFFF ;
+			font-size: 60px ;
+			text-shadow: 0 2px 5px rgba(215,63,163,.5) ;
+		}
+	</style>
+
+	<script>
+		function gotoMain() {
+			window.location = "main.html" ;
+		}
+	</script>
+
+</head>
+
+	
+<body onload="setTimeout(gotoMain, 3200)">
+	<!-- ................ -->
+	<!-- <button onclick="gotoMain()">Passer l'intro</button> -->
+
+	<!-- suite du fichier -->
+
+	<h1 class="type"></h1>
+
+	<script src="typed.js"></script>
+
+	<script>
+		var  typed = new Typed ('.type' , {strings : [ "Hello Pignans !" , ""] ,
+			typeSpeed: 45 ,
+			backSpeed: 45 ,
+			loop: false}) ;
+	</script>
+
+</body>
+</html>

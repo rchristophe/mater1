@@ -1,0 +1,4 @@
+merci à https://www.alsacreations.com/
+palette des couleurs: https://htmlcolorcodes.com/fr/
+icônes: https://www.flaticon.com/
+librairie typed.js: https://github.com/mattboldt/typed.js/

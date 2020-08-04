@@ -1,0 +1,83 @@
+/* page contact */
+
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: #F5E4EF ;
+}
+
+div#conteneur
+{
+	width: 800px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid #F57BCA ;
+	background: #fff ;
+}
+
+
+h1#header a
+{
+	width: 544px ;
+	height: 312px ;
+	display: block ;
+	background: url(../../images/ecole.png) no-repeat ;
+	position: relative ;
+	left: 130px ;
+}
+		
+
+div#contenu
+{
+	padding: 0 50px 0 50px ;
+	
+}
+
+div#contenu h2
+{
+	padding-left: 33px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	background: url(../../images/school.png) no-repeat left bottom;
+	color: #F57BCA ;
+	border-bottom: 1px solid #F57BCA;
+}
+
+div#contenu h3
+{
+	margin-left: 0px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #F57BCA;
+	border-left: 3px solid #F57BCA ;
+	color: #F57BCA ;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	margin-left: 25px;
+	margin-right: 25px;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #F57BCA ;
+}
+
+div#contenu a:hover
+{
+	color: #FD01A7 ;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #F57BCA ;
+}
